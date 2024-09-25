@@ -13,10 +13,11 @@ module.exports = {
       },
       fontFamily: {
         primary: ["Lato", "sans-serif"],
-        secondary: ["Poppins", "cursive"],
-        
+        secondary: ["Poppins", "sans-serif"],
       },
+      
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };

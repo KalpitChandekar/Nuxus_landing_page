@@ -2,4 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.border-primary-gradient {
+  border-image: linear-gradient(to right, #9b77e7, #1600a0) 1;
+}
 
+.gradient-text {
+  background: linear-gradient(to right, #9b77e7, #1600a0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
